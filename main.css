@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #eceef1;
+}
+
+header {
+    margin-top: 20px;
+}
+
+main,
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    margin-top: 5px;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    background: #fff;
+    padding: 10px 30px;
+}
+
+form .caption {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form .caption p,
+form .caption a {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+form .caption a {
+    text-decoration: none;
+    color: #3777d5;
+}
+
+form .caption a:hover {
+    text-decoration: underline;
+}
+
+form input {
+    border-radius: 5px;
+    border: 1px solid#c1c5c8;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 38px;
+    padding-left: 10px;
+    font-size: 1.1rem;
+}
+
+form input::placeholder {
+    color: rgba(55, 53, 53, 0.2);
+}
+
+form label,
+form .caption p {
+    color: #404040;
+}
+
+form>p:first-child {
+    font-size: 1.6rem;
+    text-align: center;
+    color: #4c4c4c;
+}

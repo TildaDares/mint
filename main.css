@@ -227,4 +227,7 @@ footer .copyrights ul li a {
     .alt-sign-in div {
         font-size: 0.9rem;
     }
+    .form-sign-in {
+        display: none;
+    }
 }
